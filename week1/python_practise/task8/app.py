@@ -1,8 +1,7 @@
 # why am I doing this with my life
 
 def ask_name() -> str:
-  print(f"Geben Sie Ihren Namen ein:")
-  name = input()
+  name = input("Geben Sie Ihren Namen ein:")
   return name
 
 def format_case(name: str, make_lower = False, make_higher = False) -> str:
