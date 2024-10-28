@@ -28,7 +28,7 @@ while True:
             print("whats your fav food?")
             food = input()
             freunde[eingabe3] = food
-            print(freunde)
+            print(f"du heisst {eingabe3} und magst {food}")
             break
     elif eingabe == ("3"):
         break
