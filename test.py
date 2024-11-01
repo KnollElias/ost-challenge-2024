@@ -1,3 +1,9 @@
+def get_image_paths(path: str) -> List[Path]:
+    # Collect all .jpg files and sort by name
+    image_paths = sorted(Path(path).resolve().rglob("*.jpg"), key=lambda x: x.name)
+    return image_paths
+
+
 from pathlib import Path
 from typing import List
 
