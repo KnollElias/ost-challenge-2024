@@ -12,7 +12,7 @@ def get_image_paths(path: str) -> List[Path]:
 import tempfile
 p = Path(tempfile.gettempdir()) / "test1-1"; p.mkdir(exist_ok=True)
 test_pats = [p / f"{i}.jpg" for i in range(5)]
-[p.touch() for p in reversed(test_pats)];
+[p.touch() for p in reversed(test_pats)]
 negative = p / "negative.txt"; negative.touch()
 
 # Assert

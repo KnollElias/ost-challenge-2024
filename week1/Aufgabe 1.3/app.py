@@ -4,7 +4,7 @@ from pathlib import Path
 def open_image(path: Path, resize=None) -> Image:
     img = Image.open(path)
     if resize:
-        img = img.resize(resize)
+        return Image.open(path).resize(resize)
     return img
 
 # Tests

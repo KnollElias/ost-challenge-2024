@@ -10,7 +10,7 @@ def plot_images(images: List[Image.Image], max: int = 9, image_titles: Optional[
     rows = (num_images + 2) // 3
     cols = min(3, num_images)
 
-    fig, axes = plt.subplots(rows, cols, figsize=(10, 10))
+    fig, axes = plt.subplots(rows, cols, figsize=(12, 3 * rows))
     axes = axes.flatten()
 
     # Plot images
