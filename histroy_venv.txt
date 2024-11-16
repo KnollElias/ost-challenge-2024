@@ -1,0 +1,5 @@
+history to create py virtual enviroment:
+
+python3 -m venv venv
+source venv/bin/activate
+pip install Image && pip install Dataset && pip install torchvision
