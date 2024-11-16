@@ -322,7 +322,7 @@ EPOCHS = 20
 trainer = Trainer(max_epochs=EPOCHS)
 
 # Modell initialisieren
-LEARNING_RATE = 0.01
+LEARNING_RATE = 10
 model = DenseModel(lr=LEARNING_RATE)
 
 # Nun können wir uns die Trainings- und Validierungsfehler anschauen
