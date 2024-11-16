@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 # device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 # print(torch.cuda.get_device_name(device=device))
 
-MODEL_DIRECTORY_PATH = Path('C://Users/lace/AI-Challenge/data/recordings/ImageData')
+MODEL_DIRECTORY_PATH = Path('C://Users/lace/AI-Challenge/Data2')
 
 # Sollte der Pfad nicht existieren, wird hier eine Fehlermeldung ausgegeben
 if not MODEL_DIRECTORY_PATH.exists():
@@ -322,7 +322,7 @@ EPOCHS = 20
 trainer = Trainer(max_epochs=EPOCHS)
 
 # Modell initialisieren
-LEARNING_RATE = 10
+LEARNING_RATE = 0.01
 model = DenseModel(lr=LEARNING_RATE)
 
 # Nun können wir uns die Trainings- und Validierungsfehler anschauen
@@ -406,7 +406,7 @@ plt.title("Visuelle Inspektion")
 
 # Definieren, wo das Model gespeichert werden soll (am besten auf Google Drive).
 # Erstelle den Ordner, falls er noch nicht existiert.
-MODEL_DIRECTORY_PATH = Path('C://Users/lace/AI-Challenge/data/recordings/ImageData')
+MODEL_DIRECTORY_PATH = Path('C://Users/lace/AI-Challenge/Data2')
 
 # Der Name unseres Modells
 MODEL_NAME = "model_03c_Fahrmodell_Training.onnx"
