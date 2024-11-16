@@ -412,3 +412,9 @@ Only use lower 50% for pathfinding (not for stop signs)
 
 amplify steering -> when it is  to sensitive
 
+Risks:
+ENge Kurven, Lichtm Tunnel mit Kurve und UNtergründe
+
+VERKEHRSSCHILDERERKENNUGN, darauf regieren
+
+-> Woche 2 ist sehr wichtig
